@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+
+    </body>
+    <script>
+    $(document).ready(function(){
+        $.get("https://raw.githubusercontent.com/levisliujunqi/files/master/test.txt", function(result){
+    $("body").html(result);
+  });
+    });
+    </script>
+</html>
