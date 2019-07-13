@@ -7,7 +7,7 @@
     <script>
     $(document).ready(function(){
         $.get("https://looksky.gq/blogback/article.json", function(result){
-    $("body").html(result);
+    $("body").append(result);
   });
     });
     </script>
